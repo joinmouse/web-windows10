@@ -1,0 +1,17 @@
+.App {
+    padding: 2vw;
+    width: 96vw;
+    height: calc(100vh - 4vw);
+    background-image: url('./assets/desktop_bg.jpg');
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 5vw);
+    grid-template-rows: repeat(auto-fill, 5vw);
+    grid-gap: 1vw 1vw;
+}
+
+.App > div {
+    width: 5vw;
+    height: 5vw;
+}
